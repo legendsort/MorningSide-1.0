@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+	.container {
+		width: 100%;
+		padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+	}
+	.hero {
+		@apply bg-cover;
+		padding: 330px 0px 225px;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+	}
+	.hero::before {
+		@apply absolute top-0 left-0 w-full h-full;
+    background-image: url(/images/slide_bg_circle.png);
+    content: "";
+    z-index: -1;
+    opacity: 0.5;
+    background-repeat: no-repeat;
+	}
+	.text-primary {
+    --text-opacity: 1;
+    color: #211e3b;
+  }
+  .text-100 {
+    font-size: 100px;
+  }
+  .text-80 {
+    font-size: 80px;
+  }
+  .leading-80 {
+    line-height: 80%;
+  }
+  .theme-btn {
+  	color: #FFF;
+    padding: 20px 40px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #086ad7;
+    border: 1px solid #086ad7;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 1;
+    display: inline-block;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    text-transform: uppercase;
+  }
+  .minimal-btn {
+  	color: #211e3b;
+    border: 1px solid #b0cff2;
+    background: transparent;
+    -webkit-box-shadow: inherit;
+    box-shadow: inherit;
+  }
+}

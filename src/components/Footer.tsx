@@ -8,8 +8,8 @@ const Footer = () => {
 
 	return (
 		<div className="container">
-			<div className="m-20">
-				<img className="my-5" src="/images/logo.png" alt="logo"/>
+			<div className="mx-0 md:mx-10 m-10">
+				<img className="my-5 hidden md:block" src="/images/logo.png" alt="logo"/>
 				<div className="flex justify-between">
 					<div>
 						<p className="font-medium my-2">Address</p>

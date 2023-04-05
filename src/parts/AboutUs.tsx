@@ -1,13 +1,13 @@
 import React from 'react'
 
-const Hero = () => {
+const About = () => {
 	const imagePath = "/images/feature_img.jpg"
 
 	return (
 		<div className="flex section-padding container">
 			<div className="container">
 				<div className="z-2 mr-20">
-					<p className="text-primary font-medium text-xl my-5">// About Us</p>
+					<p className="text-primary font-medium text-xl my-5 uppercase">// About Us</p>
 					<h2 className="text-primary text-4xl mb-5 leading-none">Empower Your Business with Cutting-Edge AI Solutions</h2>
 					<p className="text-primary font-medium text-md my-5">
 						MorningSide AI is your full-cycle AI development partner, from concept to production and beyond. We're not just machine learning specialists, we're the team that helps startups and enterprises create cutting-edge AI products that optimize efficiency and accelerate growth.
@@ -26,4 +26,4 @@ const Hero = () => {
 	)
 }
 
-export default Hero;
+export default About;

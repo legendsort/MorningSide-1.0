@@ -2,7 +2,7 @@ import React from 'react'
 import Card from '../components/Card'
 import { services } from '../constants/services'
 
-const Hero = () => {
+const Services = () => {
 	return (
 		<div className="section-padding">
 			<div className="container flex flex-col justify-center items-center">
@@ -18,4 +18,4 @@ const Hero = () => {
 	)
 }
 
-export default Hero;
+export default Services;

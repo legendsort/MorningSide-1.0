@@ -1,6 +1,10 @@
-import React from 'react'
 
-const Card = (props) => {
+interface ICard {
+	name: string,
+	list: Array<string>
+}
+
+const Card = (props: ICard) => {
 	const {name, list} = props;
 	return (
 		<div className="card">

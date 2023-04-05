@@ -1,8 +1,14 @@
-import React from 'react'
+interface ICard {
+	name: string,
+	photo: string,
+	role: string,
+	description: string,
+	links: Array<string>,
+	style: number
+}
 
-const Card = (props) => {
+const Card = (props: ICard) => {
 	const { name, photo, role, description, links, style } = props;
-	console.log(style)
 	return (
 		<div className={`flex ${style === 1 ? 'flex-row-reverse' : ''}`}>
 			<div className="w-1/2 my-5 flex justify-center">

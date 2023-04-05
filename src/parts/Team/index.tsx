@@ -1,4 +1,6 @@
 import React from 'react'
+import MemberCard from './MemberCard'
+import { team } from '../../constants/team'
 
 const Team = () => {
 	const imagePath = "/images/feature_img.jpg"
@@ -15,12 +17,16 @@ const Team = () => {
 					</p>
 				</div>
 			</div>
-			<div 
-				className="w-1/2 h-[300px] z-[-1] bg-cover" 
-				style={{ 
-					backgroundImage: `url(${imagePath})`
-				}}
-			></div>
+			{team.map((member, index) => 
+				<MemberCard
+					name={member.name}
+					photo={member.photo}
+					role={member.role}
+					description={member.description}
+					links={member.links}
+					style={index % 2}
+				/>
+			)}
 		</div>
 	)
 }

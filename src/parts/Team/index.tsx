@@ -8,7 +8,7 @@ const Team = () => {
 	return (
 		<div className="container">
 			<div className="container">
-				<div className="w-1/2 mr-20">
+				<div className="w-full md:w-1/2 mr-20">
 					<p className="text-primary font-medium text-xl my-5 uppercase">Our Team</p>
 					<h2 className="text-primary text-4xl font-bold mb-5 leading-none uppercase">Our creative family</h2>
 					<div className="divider w-[30px]" />

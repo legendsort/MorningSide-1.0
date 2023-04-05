@@ -11,6 +11,25 @@
     margin-right: auto;
     margin-left: auto;
 	}
+  .divider {
+    @apply border border-solid border-gray-400 my-2;
+  }
+	.section-padding {
+		padding: 130px 0;
+	}
+	.card {
+		width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 7px;
+    margin-top: 20px;
+    position: relative;
+    z-index: 9;
+    padding: 40px 30px;
+    padding-bottom: 30px;
+    -webkit-box-shadow: 0px 10px 60px 0px rgba(200, 226, 255, 0.45);
+    box-shadow: 0px 10px 60px 0px rgba(200, 226, 255, 0.45);
+	}
 	.hero {
 		@apply bg-cover;
 		padding: 330px 0px 225px;

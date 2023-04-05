@@ -23,7 +23,7 @@ const Header = () => {
 				<li>
 					<a href="about.html">Contact</a>
 				</li>
-				<a href="#" class="theme-btn">CONSULTANCY <i class="fas fa-arrow-right"></i></a>
+				<a href="#" className="theme-btn">CONSULTANCY <i className="fas fa-arrow-right"></i></a>
 			</div>
 		</div>
 	)

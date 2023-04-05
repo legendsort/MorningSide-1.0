@@ -36,7 +36,7 @@ html {
 	}
 	.hero {
 		@apply bg-cover;
-		padding: 330px 0px 225px;
+		padding: 230px 0px 225px;
     z-index: 1;
     position: relative;
     overflow: hidden;

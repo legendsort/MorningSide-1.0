@@ -5,6 +5,7 @@
 @layer utilities {
 	.container {
 		width: 100%;
+		height: 100%;
 		padding-right: var(--bs-gutter-x,.75rem);
     padding-left: var(--bs-gutter-x,.75rem);
     margin-right: auto;
@@ -18,12 +19,11 @@
     overflow: hidden;
 	}
 	.hero::before {
-		@apply absolute top-0 left-0 w-full h-full;
+		@apply absolute top-0 left-0 w-full h-full bg-no-repeat;
     background-image: url(/images/slide_bg_circle.png);
     content: "";
     z-index: -1;
     opacity: 0.5;
-    background-repeat: no-repeat;
 	}
 	.text-primary {
     --text-opacity: 1;

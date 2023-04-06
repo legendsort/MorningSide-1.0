@@ -10,8 +10,8 @@ const Card = (props: ICard) => {
 		<div className="card">
 			<div className="text-primary font-medium text-xl">{name}</div>
 			<div className="divider" />
-			{list.map((item) =>
-				<p>{item}</p>
+			{list.map((item, index) =>
+				<p key={index}>{item}</p>
 			)}
 		</div>
 	)

@@ -13,12 +13,12 @@ const Header = () => {
           <img src="/images/logo.png" alt="logo" />
           <div className="pl-10 r-2 hidden lg:block">
             <div className="flex items-center gap-5">
-              <a href="about.html">Home</a>
-              <a href="about.html">About</a>
-              <a href="about.html">Services</a>
-              <a href="about.html">Pages</a>
-              <a href="about.html">News</a>
-              <a href="about.html">Contact</a>
+              <a href="#">Home</a>
+              <a href="#">About</a>
+              <a href="#">Services</a>
+              <a href="#">Pages</a>
+              <a href="#">News</a>
+              <a href="#">Contact</a>
             </div>
           </div>
         </div>
@@ -46,15 +46,25 @@ const Header = () => {
         </div>
       </div>
       {open ? (
-        <div className="flex flex-col md:hidden items-end gap-5 pr-5">
-          <div>
-            <a href="about.html">Home</a>
-          </div>
-          <a href="about.html">About</a>
-          <a href="about.html">Services</a>
-          <a href="about.html">Pages</a>
-          <a href="about.html">News</a>
-          <a href="about.html">Contact</a>
+        <div className="flex flex-col md:hidden items-end">
+          <a className="nav-item" href="/">
+            Home
+          </a>
+          <a className="nav-item" href="/">
+            About
+          </a>
+          <a className="nav-item" href="/">
+            Services
+          </a>
+          <a className="nav-item" href="/">
+            Pages
+          </a>
+          <a className="nav-item" href="/">
+            News
+          </a>
+          <a className="nav-item" href="/">
+            Contact
+          </a>
         </div>
       ) : (
         <></>

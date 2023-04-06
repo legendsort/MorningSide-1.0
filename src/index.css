@@ -82,4 +82,7 @@ html {
     -webkit-box-shadow: inherit;
     box-shadow: inherit;
   }
+  .nav-item {
+    @apply bg-gray-200 w-full pt-2 pb-2 pl-2 hover:bg-gray-400 active:bg-gray-300
+  }
 }

@@ -7,7 +7,7 @@ const Hero = () => {
 	const hero2ClipPathPoints = "50% 0%, 100% 100%, 0% 100%";
 
 	return (
-		<div className="hero md:pt-[330px]">
+		<div className="hero md:pt-[330px] h-screen">
 			<div className="container">
 				<div className="z-2">
 					<h2 className="text-primary text-3xl lg:text-4xl lg:text-5xl md:text-80 font-black mb-5 leading-none tracking[-0.1875]">Artificial Intelligence</h2>

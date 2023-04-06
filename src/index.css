@@ -7,22 +7,22 @@ html {
 }
 
 @layer utilities {
-	.container {
-		width: 100%;
-		height: 100%;
-		padding-right: var(--bs-gutter-x,.75rem);
-    padding-left: var(--bs-gutter-x,.75rem);
+  .container {
+    width: 100%;
+    height: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
     margin-right: auto;
     margin-left: auto;
-	}
+  }
   .divider {
     @apply border border-solid border-gray-400 my-2;
   }
-	.section-padding {
-		padding: 30px 0;
-	}
-	.card {
-		width: 100%;
+  .section-padding {
+    padding: 30px 0;
+  }
+  .card {
+    width: 100%;
     margin: 0 auto;
     background-color: #fff;
     border-radius: 7px;
@@ -33,22 +33,22 @@ html {
     padding-bottom: 30px;
     /* -webkit-box-shadow: 0px 10px 60px 0px rgba(200, 226, 255, 0.45); */
     /* box-shadow: 0px 10px 60px 0px rgba(200, 226, 255, 0.45); */
-	}
-	.hero {
-		@apply bg-cover;
-		padding: 230px 0px 225px;
+  }
+  .hero {
+    @apply bg-cover;
+    padding: 230px 0px 225px;
     z-index: 1;
     position: relative;
     overflow: hidden;
-	}
-	.hero::before {
-		@apply absolute top-0 left-0 w-full h-full bg-no-repeat;
+  }
+  .hero::before {
+    @apply absolute top-0 left-0 w-full h-full bg-no-repeat;
     background-image: url(/images/slide_bg_circle.png);
     content: "";
     z-index: -1;
     opacity: 0.5;
-	}
-	.text-primary {
+  }
+  .text-primary {
     --text-opacity: 1;
     color: #211e3b;
   }
@@ -63,7 +63,7 @@ html {
   }
   .theme-btn {
     @apply flex justify-center;
-  	color: #FFF;
+    color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
     background-color: #086ad7;
@@ -76,14 +76,14 @@ html {
     text-transform: uppercase;
   }
   .minimal-btn {
-  	color: #211e3b;
+    color: #211e3b;
     border: 1px solid #b0cff2;
     background: transparent;
     -webkit-box-shadow: inherit;
     box-shadow: inherit;
   }
   .nav-item {
-    @apply bg-gray-200 w-full pt-2 pb-2 pl-2 hover:bg-gray-400 active:bg-gray-300
+    @apply bg-gray-200 w-full pt-2 pb-2 pl-2 hover:bg-gray-400 active:bg-gray-300;
   }
   .box-shadow {
     box-shadow: 0px 10px 60px 0px rgba(200, 226, 255, 0.45);

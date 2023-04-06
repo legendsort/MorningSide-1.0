@@ -25,10 +25,9 @@ const About = () => {
           </p>
         </div>
       </div>
-	  <div className = " col-span-2 md:col-span-1 p-5 md:p-10">
-      	<img src={imagePath} className="container"></img>
-
-	  </div>
+      <div className=" col-span-2 md:col-span-1 p-5 md:p-10">
+        <img src={imagePath} className="container"></img>
+      </div>
     </div>
   );
 };

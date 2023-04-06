@@ -1,8 +1,8 @@
 export const team = [
   {
-    name: "Liam Ottley",
-    photo: "/images/Photos/Team/1.png",
-    role: "CEO",
+    name: "Simon Jonson",
+    photo: "/images/tm1.jpg",
+    role: "designer",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     links: [
@@ -12,21 +12,9 @@ export const team = [
     ],
   },
   {
-    name: "Josh Brown",
-    photo: "/images/Photos/Team/2.png",
-    role: "Head of Operations",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    links: [
-      "https://facebook.com/",
-      "https://twitter.com/",
-      "https://portfolio.com/",
-    ],
-  },
-  {
-    name: "Nikhil Bery",
-    photo: "/images/Photos/Team/3.png",
-    role: "Lead Developer",
+    name: "Bryan Smith",
+    photo: "/images/tm2.jpg",
+    role: "developer",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     links: [

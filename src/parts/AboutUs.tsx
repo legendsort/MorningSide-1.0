@@ -1,12 +1,12 @@
 import React from "react";
 
 const About = () => {
-  const imagePath = "/images/Photos/Website/features.jpeg";
+  const imagePath = "/images/feature_img.jpg";
 
   return (
-    <div className="grid grid-cols-2 section-padding container">
-      <div className="col-span-2 md:col-span-1 container">
-        <div className="md:mr-10 pl-3 md:pl-10">
+    <div className="flex section-padding container">
+      <div className="container">
+        <div className="z-2 md:mr-20">
           <p className="text-primary font-medium text-xl my-5 uppercase">
             // About Us
           </p>
@@ -23,6 +23,9 @@ const About = () => {
             With our expertise across multiple industries, we'll help you build
             an innovative product that fosters your company's success.
           </p>
+          <a href="#" className="theme-btn mt-[35px] mr-5 max-w-max">
+            Learn More <i className="fas fa-arrow-right"></i>
+          </a>
         </div>
       </div>
       <div className=" col-span-2 md:col-span-1 p-5 md:p-10">

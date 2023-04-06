@@ -36,7 +36,7 @@ html {
 	}
 	.hero {
 		@apply bg-cover;
-		padding: 330px 0px 225px;
+		padding: 230px 0px 225px;
     z-index: 1;
     position: relative;
     overflow: hidden;
@@ -64,9 +64,8 @@ html {
   .theme-btn {
     @apply flex justify-center;
   	color: #FFF;
-    padding: 20px 40px;
+    padding: 10px 20px;
     border-radius: 5px;
-    font-size: 14px;
     background-color: #086ad7;
     border: 1px solid #086ad7;
     -webkit-box-sizing: border-box;
@@ -82,5 +81,8 @@ html {
     background: transparent;
     -webkit-box-shadow: inherit;
     box-shadow: inherit;
+  }
+  .nav-item {
+    @apply bg-gray-200 w-full pt-2 pb-2 pl-2 hover:bg-gray-400 active:bg-gray-300
   }
 }

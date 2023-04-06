@@ -11,7 +11,7 @@ const Header = () => {
       <div className="container flex items-center justify-between">
         <div className="flex flex-row items-center justify-center">
           <div className="">
-            <img src="/images/Logo/logo.png" className="w-[200px] h-[200px]" alt="logo" />
+            <img src="/images/Logo/logo.png" className="w-[200px] h-[60px]" alt="logo" />
           </div>
         </div>
       </div>

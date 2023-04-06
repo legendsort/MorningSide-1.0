@@ -3,7 +3,7 @@ interface ICard {
 	name: string,
 	list: Array<string>
 }
-
+	
 const Card = (props: ICard) => {
 	const {name, list} = props;
 	return (

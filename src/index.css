@@ -64,9 +64,8 @@ html {
   .theme-btn {
     @apply flex justify-center;
   	color: #FFF;
-    padding: 20px 40px;
+    padding: 10px 20px;
     border-radius: 5px;
-    font-size: 14px;
     background-color: #086ad7;
     border: 1px solid #086ad7;
     -webkit-box-sizing: border-box;

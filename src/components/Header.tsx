@@ -1,5 +1,4 @@
-import { useState } from "react";
-const Header = () => {
+import { useState } from "react";const Header = () => {
   const [open, setOpen] = useState(false);
   const handleClick = () => {
     if (open === false) setOpen(true);
@@ -11,7 +10,13 @@ const Header = () => {
       <div className="container flex items-center justify-between">
         <div className="flex flex-row items-center justify-center">
           <div className="">
-            <img src="/images/Logo/logo.png" className="w-[200px] h-[60px]" alt="logo" />
+            <a href="/">
+              <img
+                src="/images/Logo/logo.png"
+                className="w-[200px] h-[60px]"
+                alt="logo"
+              />
+            </a>
           </div>
         </div>
       </div>

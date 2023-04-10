@@ -13,7 +13,7 @@ const Contact = () => {
 					<p className="text-gray-500 font-medium my-5">
 						Feel free to contact us.
 					</p>
-					<a href="#" className="theme-btn">Contact Us</a>
+					<a href="/contact" className="theme-btn">Contact Us</a>
 				</div>
 			</div>
 	)

@@ -1,13 +1,13 @@
 import MainLayout from './layout/MainLayout'
 import LandingPage from './pages/LandingPage'
-import Contact from './parts/Contact'
 import ContactPage from './pages/ContactPage'
+import BlogPage from './pages/BlogPage'
 
 function App() {
   return (
-    // <MainLayout>
-      <ContactPage />
-    // </MainLayout>
+    <MainLayout>
+      <LandingPage />
+    </MainLayout>
   )
 }
 

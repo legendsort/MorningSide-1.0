@@ -24,6 +24,8 @@ html {
     background-color: #fff;
     border-radius: 7px;
     margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
     position: relative;
     z-index: 9;
     padding: 40px 30px;

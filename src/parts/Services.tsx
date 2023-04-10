@@ -4,7 +4,7 @@ import { services } from "../constants/services";
 
 const Services = () => {
   return (
-    <div className="pt-20" id="services">
+    <div className="container pt-20 mx-auto" id="services">
       <div className="container flex flex-col justify-center items-center">
         <p className="text-primary uppercase m-5">Our Services</p>
         <h1 className="text-primary text-4xl md:text-5xl font-bold leading-80 tracking[-0.1875] m-8">

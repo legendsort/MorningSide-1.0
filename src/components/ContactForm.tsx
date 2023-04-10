@@ -11,8 +11,8 @@ const ContactForm = () => {
     setStatus("Sending...");
     emailjs
       .sendForm(
-        "service_839tvkd",
-        "template_wsj7vpd",
+        "service_4lc63o8",
+        "template_upd8p7b",
         form.current,
         "WpcdHKXte2Drc_Q_u"
       )

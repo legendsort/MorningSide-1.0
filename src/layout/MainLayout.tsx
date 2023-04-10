@@ -3,6 +3,7 @@ import { LoadingContext } from '../contexts/loadingContext'
 import HeaderLayout from './HeaderLayout'
 import Main from './Main'
 import FooterLayout from './FooterLayout'
+import { Outlet } from "react-router-dom";
 
 const MainLayout: React.FC<{ children?: React.ReactNode }> = ({ children }) => {
 	const [isLoading, setLoading] = useState(true);
@@ -11,7 +12,8 @@ const MainLayout: React.FC<{ children?: React.ReactNode }> = ({ children }) => {
 		<LoadingContext.Provider value={{ isLoading, setLoading, loadingMessage, setLoadingMessage }}>
 			<HeaderLayout />
 			<Main>
-				{children}
+			{children || <Outlet />}
+
 			</Main>
 			<FooterLayout />
 		</LoadingContext.Provider>

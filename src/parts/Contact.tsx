@@ -7,7 +7,7 @@ const Contact = () => {
 	const hero2ClipPathPoints = "50% 0%, 100% 100%, 0% 100%";
 
 	return (
-			<div className="container">
+			<div className="container pt-20">
 				<div className="flex flex-col items-center">
 					<h2 className="text-primary text-6xl md:text-7xl text-center font-bold mb-2 leading-none">Let's Talk</h2>
 					<p className="text-gray-500 font-medium my-5">

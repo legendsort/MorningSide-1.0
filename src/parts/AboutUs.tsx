@@ -2,7 +2,7 @@ const About = () => {
   const imagePath = "/images/Photos/Website/features.jpeg";
 
   return (
-    <div className="grid grid-cols-2 container flex items-center">
+    <div className="grid grid-cols-2 container flex items-center pt-32 pb-32">
       <div className="col-span-2 md:col-span-1 container">
         <div className="md:mr-10 pl-3 md:pl-10">
           <p className="text-primary font-medium text-xl my-5 uppercase">
